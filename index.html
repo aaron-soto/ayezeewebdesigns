@@ -1,59 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Aaron Soto" />
+		<meta
+			name="description"
+			content="Custom website solutions for your business"
+		/>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>AyeZee Web Designs</title>
-
-		<style type="text/css">
-			body {
-				text-align: center;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				padding: 2rem;
-				height: 100vh;
-				overflow: hidden;
-			}
-			h1 {
-				font-size: 40px;
-			}
-			body {
-				font: 20px Helvetica, sans-serif;
-				color: #333;
-			}
-			#article {
-				display: block;
-				text-align: left;
-				width: 650px;
-				margin: 0 auto;
-			}
-			a {
-				color: #dc8100;
-				text-decoration: none;
-			}
-			a:hover {
-				color: #333;
-				text-decoration: none;
-			}
-		</style>
+		<!-- Document title -->
+		<title>AyeZeeWebDesigns | Custom Websites</title>
+		<!-- Stylesheets & Fonts -->
+		<link href="css/plugins.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/custom.css" rel="stylesheet" />
 	</head>
-	<body>
-		<h1>Our site is getting a little tune up and some love.</h1>
-		<p>
-			We apologize for the inconvenience, but we're performing some maintenance.
-			You can still contact us at
-			<a href="mailto:support@ayezeewebdesigns.com"
-				>support@ayezeewebdesigns.com</a
-			>. We'll be back up soon!
-		</p>
-		<p>— Coding is Love</p>
 
-		<p>
-			Meanwhile you can check out my personal site
-			<a href="https://aaronsoto.io">https://aaronsoto.io</a>
-		</p>
+	<body>
+		<!-- Body Inner -->
+		<div class="body-inner">
+			<!-- Header -->
+			<header
+				id="header"
+				data-transparent="true"
+				data-fullwidth="true"
+				class="header-always-fixed dark"
+			>
+				<div class="header-inner">
+					<div class="container">
+						<!--Logo-->
+						<div id="logo">
+							<a
+								href="index.html"
+								data-src-responsive="images/logo.png"
+								class="logo"
+							>
+								<img src="images/logo-dark.png" alt="Polo Logo" />
+							</a>
+						</div>
+						<!--End: Logo-->
+
+						<!--Header Extras-->
+						<div class="header-extras">
+							<ul>
+								<li>
+									<!--overlay menu-->
+									<a
+										id="menu-overlay-trigger"
+										href="#"
+										class="lines-button x toggle-item"
+										data-target="body"
+										data-class="menu-overlay-active"
+									>
+										<span class="lines"></span>
+									</a>
+									<!--end: overlay menu-->
+								</li>
+							</ul>
+						</div>
+						<!--end: Header Extras-->
+
+						<!--Navigation-->
+						<div id="mainMenu" class="menu-overlay menu-light menu-onclick">
+							<div class="container">
+								<nav>
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="#about">About</a></li>
+										<li><a href="#services">Services</a></li>
+										<li><a href="#contact">Contact</a></li>
+
+										<li class="contact mt-5">
+											<a href="tel:602-492-8087">(602) 492-8087</a>
+										</li>
+										<li class="contact" style="max-width: 100%">
+											<a href="mailto:support@ayezeewebdesigns.com"
+												>support@ayezeewebdesigns.com</a
+											>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<!--end: Navigation-->
+					</div>
+				</div>
+			</header>
+			<!-- end: Header -->
+
+			<!-- Inspiro Slider -->
+			<div
+				id="slider"
+				class="inspiro-slider slider-fullscreen dots-creative"
+				data-height-xs="360"
+			>
+				<!-- Slide 1 -->
+				<div
+					class="slide"
+					style="
+						background-image: url('homepages/agency-v2/images/slider/1.png');
+					"
+				>
+					<div class="container">
+						<div class="slide-captions text-end">
+							<!-- Captions -->
+							<h3 class="m-b-0 text-light">Hello! We Are</h3>
+
+							<h2 class="text-lg m-b-10 text-light">AyeZee<br />Web Designs</h2>
+							<h4 class="text-light">Based near Phoenix, Arizona</h4>
+							<div>
+								<a class="btn btn-light btn-outline" href="#contact"
+									><span>Get in touch</span></a
+								>
+							</div>
+							<!-- end: Captions -->
+						</div>
+					</div>
+				</div>
+				<!-- end: Slide 1 -->
+			</div>
+			<!--end: Inspiro Slider -->
+
+			<!-- ABOUT AGENCY -->
+			<section class="text-light p-t-150 background-black">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="heading-text heading-section text-center">
+								<h2 class="text-medium fw-100" id="about">
+									We Do Beautiful Websites!
+								</h2>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<h4 class="m-b-40">DIGITAL CREATIVE AGENCY</h4>
+							Whether it is a simple one page website or a complicated website
+							setup with multiple pages we can get your business up and running
+							with a website that will catch the eye of any potential customers
+							for your business.
+							<br />
+							<br />We like to offer an up front flat fee, Half before delivery
+							of the site and the other half after delivery. We then will
+							maintain your website each month so when you need a new feature
+							added or some new photos updated we will always be there for that
+							and do our best to have those changes done within 24 hours.
+						</div>
+
+						<div class="col-lg-6">
+							<img src="./images/newsletter-bg.jpg" alt="" class="img-fluid" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end: ABOUT AGENCY -->
+
+			<!-- PROCESS -->
+			<section class="box-fancy text-light background-black">
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-lg-4 text-center"
+							data-animate="fadeInUp"
+							data-animate-delay="200"
+						>
+							<h1 class="text-lg text-uppercase">01.</h1>
+							<h3>CONCEPT</h3>
+							<span
+								>After we sit down and figure out exactly what it is that your
+								company needs we will create a concept design and make sure it
+								fits your vision.
+							</span>
+						</div>
+
+						<div
+							class="col-lg-4 text-center"
+							data-animate="fadeInUp"
+							data-animate-delay="400"
+						>
+							<h1 class="text-lg text-uppercase">02.</h1>
+							<h3>DEVELOPMENT</h3>
+							<span
+								>Then the work is all in our hands. We will make that vision
+								come to life and get your site ready to go.</span
+							>
+						</div>
+
+						<div
+							class="col-lg-4 text-center"
+							data-animate="fadeInUp"
+							data-animate-delay="800"
+						>
+							<h1 class="text-lg text-uppercase">03.</h1>
+							<h2>LAUNCH</h2>
+							<span
+								>When everything is ready to go we will launch your new site and
+								you and your customers will be able to access the site within a
+								few hours.
+							</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end: PROCESS -->
+
+			<!-- SERVICES -->
+			<section class="text-light background-black">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="col-lg-4" data-animate="fadeIn">
+								<div class="heading-text heading-section">
+									<h1 class="text-medium" id="services">
+										Best Services Around
+									</h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="row">
+								<div
+									class="col-lg-6"
+									data-animate="flipInY"
+									data-animate-delay="100"
+								>
+									<div class="icon-box effect small clean">
+										<div class="icon">
+											<a href="#"><i class="fa fa-plug"></i></a>
+										</div>
+										<h3>Social Integrations</h3>
+										<p>
+											Use your website to bring people to your social media or
+											from your social media to your website.
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-lg-6"
+									data-animate="flipInY"
+									data-animate-delay="200"
+								>
+									<div class="icon-box effect small clean">
+										<div class="icon">
+											<a href="#"><i class="fa fa-desktop"></i></a>
+										</div>
+										<h3>Flexible Layouts</h3>
+										<p>
+											Your website will look good and be tested on all sorts of
+											devices. Not just desktop or mobile.
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-lg-6"
+									data-animate="flipInY"
+									data-animate-delay="400"
+								>
+									<div class="icon-box effect small clean">
+										<div class="icon">
+											<a href="#"><i class="fa fa-cloud"></i></a>
+										</div>
+										<h3>Code stored in the cloud</h3>
+										<p>
+											Back up your businesses data in the cloud so that we can
+											update your website from anywhere anytime.
+										</p>
+									</div>
+								</div>
+
+								<div
+									class="col-lg-6"
+									data-animate="flipInY"
+									data-animate-delay="600"
+								>
+									<div class="icon-box effect small clean">
+										<div class="icon">
+											<a href="#"><i class="far fa-lightbulb"></i></a>
+										</div>
+										<h3>Your Ideas</h3>
+										<p>
+											We sit down with you and we want to know what you want to
+											be on YOUR site. We want to make your vision come to life.
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-lg-6"
+									data-animate="flipInY"
+									data-animate-delay="800"
+								>
+									<div class="icon-box effect small clean">
+										<div class="icon">
+											<a href="#"><i class="fa fa-trophy"></i></a>
+										</div>
+										<h3>Stand out</h3>
+										<p>
+											Our websites will make you stand out among your
+											competitors and make your customers feel at home.
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-lg-6"
+									data-animate="flipInY"
+									data-animate-delay="1000"
+								>
+									<div class="icon-box effect small clean">
+										<div class="icon">
+											<a href="#"><i class="fa fa-thumbs-up"></i></a>
+										</div>
+										<h3>Guaranteed Satisfaction</h3>
+										<p>
+											We will work with you to make sure that you are happy with
+											your website and nothing less.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end: SERVICES -->
+
+			<!-- GET IN TOUCH -->
+			<section class="text-light background-black">
+				<div class="container">
+					<div class="text-center m-b-100">
+						<h1 class="text-medium" id="contact">Get in touch?</h1>
+						<p>
+							Have a question that still has not been answered? Send us a
+							message and we will get back to you within one business day.
+						</p>
+					</div>
+					<div class="row">
+						<div class="col-lg-8 center">
+							<form
+								class="widget-contact-form"
+								novalidate
+								action="include/contact-form.php"
+								role="form"
+								method="post"
+							>
+								<div class="row">
+									<div class="form-group col-md-6">
+										<label for="name">Name</label>
+										<input
+											type="text"
+											aria-required="true"
+											name="widget-contact-form-name"
+											class="form-control required name"
+											placeholder="Enter your Name"
+										/>
+									</div>
+									<div class="form-group col-md-6">
+										<label for="email">Email</label>
+										<input
+											type="email"
+											aria-required="true"
+											required
+											name="widget-contact-form-email"
+											class="form-control required email"
+											placeholder="Enter your Email"
+										/>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6">
+										<label for="subject">Phone</label>
+										<input
+											type="text"
+											name="widget-contact-form-phone"
+											class="form-control"
+											placeholder="Enter your phone number"
+										/>
+									</div>
+									<div class="form-group col-md-6">
+										<label for="subject">Company</label>
+										<input
+											type="text"
+											name="widget-contact-form-company"
+											class="form-control"
+											placeholder="Enter your Company name"
+										/>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea
+										type="text"
+										name="widget-contact-form-message"
+										rows="8"
+										class="form-control required"
+										placeholder="Enter your Message"
+									></textarea>
+								</div>
+								<div class="row">
+									<div class="form-group text-center">
+										<button class="btn center" type="submit" id="form-submit">
+											<i class="fa fa-paper-plane"></i>&nbsp;Send message
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end: GET IN TOUCH -->
+
+			<!-- FOOTER -->
+			<footer class="inverted" id="footer">
+				<div class="copyright-content">
+					<div class="container">
+						<div class="row">
+							<div class="copyright-text text-center">
+								© 2023 AyeZeeWebDesigns. All Rights Reserved.
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- end: FOOTER -->
+		</div>
+		<!-- end: Body Inner -->
+
+		<!-- Scroll top -->
+		<a id="scrollTop"
+			><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i
+		></a>
+		<!--Plugins-->
+		<script src="js/jquery.js"></script>
+		<script src="js/plugins.js"></script>
+
+		<!--Template functions-->
+		<script src="js/functions.js"></script>
 	</body>
 </html>

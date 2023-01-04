@@ -1,0 +1,9 @@
+.btn,
+input,
+#scrollTop {
+	border-radius: 0 !important;
+}
+
+nav ul li.contact a {
+	color: #2250fc !important;
+}
