@@ -8,7 +8,26 @@
 			name="description"
 			content="Custom website solutions for your business"
 		/>
-		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<!-- ICONS -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="images/favicons/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="images/favicons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="images/favicons/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/site.webmanifest" />
+		<!-- END ICONS -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<!-- Document title -->
 		<title>AyeZeeWebDesigns | Custom Websites</title>
@@ -34,10 +53,10 @@
 						<div id="logo">
 							<a
 								href="index.html"
-								data-src-responsive="images/logo.png"
+								data-src-responsive="images/az-logo.png"
 								class="logo"
 							>
-								<img src="images/logo-dark.png" alt="Polo Logo" />
+								<img src="images/az-logo.png" alt="AyeZee Logo" />
 							</a>
 						</div>
 						<!--End: Logo-->
@@ -99,9 +118,7 @@
 				<!-- Slide 1 -->
 				<div
 					class="slide"
-					style="
-						background-image: url('homepages/agency-v2/images/slider/1.png');
-					"
+					style="background-image: url('images/header-background.png')"
 				>
 					<div class="container">
 						<div class="slide-captions text-end">
@@ -339,11 +356,14 @@
 						<div class="col-lg-8 center">
 							<form
 								class="widget-contact-form"
-								novalidate
-								action="https://formspree.io/f/xjvdvwgz"
-								role="form"
-								method="post"
+								action="https://formsubmit.co/208ad5ab2e255d9be9aeea77a3cdbd0d"
+								method="POST"
 							>
+								<input
+									type="hidden"
+									name="_next"
+									value="https://ayezeewebdesigns.com/form-success.html"
+								/>
 								<div class="row">
 									<div class="form-group col-md-6">
 										<label for="name">Name</label>
